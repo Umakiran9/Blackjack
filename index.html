@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Blackjack</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="anime.css">
+
+</head>
+
+<body>
+	<div class="container">
+        <h1 class="ml7">
+            <span class="text-wrapper">
+              <span class="letters">&#9827;
+                BlackJack &#9827;</span>
+            </span>
+          </h1>
+          
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+          
+        <script src="anmation.js"></script>
+		<div class="row text-center">
+			<div class="col-xs-12 col-lg-12">
+				<button id="deal" type="button" class="btn btn-deal">Deal</button>
+				<button id="hit" type="button" class="btn btn-hit hidden">Hit</button>
+				<button id="stand" type="button" class="btn btn-stand hidden">Stand</button>
+				<button id="playAgain" type="button" class="btn btn-play-again hidden">Play Again</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-xs-12 col-lg-12">
+				<div id="winner" class="hidden text-center"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="dealerCards"></div>
+	<div id="playerCards"></div>
+	
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+.ml7 {
+    text-align: center;
+    font-size: 450%;
+    color: white;
+    font-family: 'Algerian';
+  }
+  .ml7 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  .ml7 .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 1em;
+  }
+  

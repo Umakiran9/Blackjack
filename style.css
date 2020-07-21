@@ -1,0 +1,68 @@
+body{
+    background: url(./backImage/l22.jpeg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+
+}
+
+/*.text-uppercase {
+    color:white;
+   font-family: 'Algerian';
+    font-size: 200%;
+    
+}
+  */
+
+.btn-deal {
+    background-color:rgb(192, 5, 5);
+    font-size: 20px;
+    border-radius: 4px;
+    width: 150px;
+    color: white;
+    padding: 14px 40px;
+    margin: 12px 12px 12px 10px;
+
+}
+
+.btn-hit {
+    background-color:mediumseagreen;
+    font-size: 150%;
+    border-radius: 4px;
+    width: 150px;
+    color: white;
+    padding: 14px 40px;
+    margin: 12px 12px 12px 10px;
+}
+
+.btn-stand {
+    background-color:orangered;
+    font-size: 150%;
+    border-radius: 4px;
+    width: 150px;
+    color: white;
+    padding: 14px 40px;
+    margin: 12px 12px 12px 10px;
+}
+
+.btn-play-again {
+    background-color:rgb(192, 5, 5);
+    font-size: 20px;
+    border-radius: 4px;
+    width: 130px;
+    color: white;
+    padding: 14px 14px;
+    margin: 10px 10px 10px 10px;
+}
+
+.card {
+    height: 200px;
+    margin: 15px;
+}
+
+#winner{
+    background-color: black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(220, 250, 49);
+    
+}
+
